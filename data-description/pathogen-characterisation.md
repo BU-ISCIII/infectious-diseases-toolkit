@@ -41,25 +41,17 @@ Ensuring that data is adequately described is crucial to enable others to be abl
 There are many different types of data that relate to pathogen characterisation. You may need to describe, for example, biological specimens, the protocols used in data collection, and/or genomic data. This page will inform you of what you need to consider when describing data related to pathogen characterisation. By following the guidance on this page, you should be able to share your data with all the description necessary to enable others to reuse it.
 
 ## Good practices for describing data in general
-
 You should always plan your study with [data sharing](https://rdmkit.elixir-europe.org/data_publication) in mind. Identifying the information necessary for sharing your data effectively will allow you to generate documentation that is both well structured and complete. Describing the data entails extracting the information, recording it according to existing best practice guidelines and standards, and extending descriptions where needed.
 
 ### Considerations
-
 When defining a general data description strategy, it is important to consult relevant guidelines and adopt accepted standards.
-
-* **Include enough detail to inform assessment by your peers and the wider research community.** The way that you describe and document your data will vary depending on the type of study. The descriptions should include all of the information necessary for others to be able to understand and process the data that you share. It should also include sufficient information to enable an informed assessment of the reliability of the data and the comptence with which they were generated. The descriptions are usually organised following research community guidelines and then structured as metadata to make the data FAIR.
-
+* **Include enough detail to inform assessment by your peers and the wider research community.**
+The way that you describe and document your data will vary depending on the type of study. The descriptions should include all of the information necessary for others to be able to understand and process the data that you share. It should also include sufficient information to enable an informed assessment of the reliability of the data and the comptence with which they were generated. The descriptions are usually organised following research community guidelines and then structured as metadata to make the data FAIR.
 * **Review the submission guidelines of the repositories that you intend to submit data into.** Different repositories often require different levels/types of metadata, and restrict access to the data to different extents. This is largely linked to the fact that different repositories have different aims/audiences, and will therefore enable users to search different parts of the metadata. It is important to check the requested data formats and the checklists specified by the repositories. We encourage you to go beyond just the minimum data required by the repository, as this will likely increase the reusability of your data in different contexts. Contact the repositories via their helpdesks if you have any questions about whether you are able to include different types of metadata.
-
 * **Adopt shared practices for annotating experiments.** Some research communities (e.g. European Center for Disease Control, ECDC) have developed guidelines detailing shared/common practices for describing experiments and how to embed descriptions in the data. By adopting a shared standard, your data are likely to be more accessible and understandable to potential users. At a minimum, it is generally recommended that you describe the design of the study/program, collected specimens, sample preparation steps, experimental protocols, and workflow.
-
 * **Follow the recommendations from national and international authorities** including e.g. public health authorities, epidemic surveillance programs, and research data communities.
-
 * **Share/reference information about cohorts, samples, instruments, protocols, materials and methods.** It is important to retain information about which protocols (including which version) were used at each step of your experiments, as well as which samples were prepared and processed together. This can include, for example, information about the model number of the instruments used, the biobanks samples used, and the suppliers of kits. This can allow users to identify potential issues and artefacts and even generate new data.
-
 * **Share/reference data assets, software versions & computational workflows.** You should include links/references to source data used, and describe analytic workflows (with runtime quality metrics). Other information could include bioinformatics protocols used, and the versions of software and computational workflows used. This is crucial for understanding exactly what was done as well as identifying potential areas for improvement.
-
 * **Protect the privacy of human research subjects and patients.** Whilst providing complete data descriptions is generally advisable, some data will need to be anonymised before it can be shared. You should describe how and why sensitive data were masked or removed.
 
 ### Existing approaches
@@ -77,22 +69,14 @@ When defining a general data description strategy, it is important to consult re
 * Outline the data sharing platforms, data description standards, and checklists, in your [data management plan](https://rdmkit.elixir-europe.org/data_management_plan#what-should-you-write-in-a-dmp).
 
 ## Biological samples
-
 ### Considerations
-
 Many different types of material can be sampled to monitor and identify pathogens.
-
 * **Describing environmental samples.** It is important to describe and provide metadata about your samples e.g. about geolocalisation, time-zone in which sample were taken, and the meteorological conditions at the time of collection.
-
 * **Describing samples related to human hosts.**
 For biological samples from human hosts, consider that national authorities adopt and customise international recommendations.
-
 * **Describing samples that do not originate from natural environments or hosts**. This includes cultured/lab grown samples.
-
 * **Describing pooled samples**
-
 ### Existing approaches
-
 * Descriptions of biological samples (metadata) must be provided alongside the molecular data. Therefore, repositories such as {% tool "european-nucleotide-archive" %} and {% tool "gisaid" %} have specific requirements for the description of biological samples.
   * Which sample metadata should be submitted to repositories, regardless of pathogenic organism, is often debated. However, important metadata for a pathogen context is below:
     * Taxon id / scientific name of sample.
@@ -116,23 +100,25 @@ For biological samples from human hosts, consider that national authorities adop
 * Describe computational workflows and tools
 
 ### Existing approaches -->
-## Genome data of viral pathogens
 
+## Genome data of viral pathogens
 The screening and genome reconstruction of viruses is crucial in understanding the pathenogenesis of a pathogen, and in enabling the sources of outbreaks to be traced rapidly.
 
 ### Considerations
-
 Whilst it is inherently important to follow general best practices for genome data management, there are also specific considerations for this type of data:
-
-* **Aim for someone else to be able to replicate the experiments.** You should adopt common practices to enable others to compile and use data generated across different research projects and public health initiatives. This includes being able to add more samples to extend the scope of a study.
-* **Describe the design of the study/program and experimental variables.** This includes, for example, the purpose of the study, the variables and observations required to reach its goals, and how the genome data fits into this context.
-* **Describe how the samples were prepared for sequencing.** This includes describing how and where specimens were collected and the process used to create the samples containing the genomic material of interest. You should also reference protocols, reagent kits, instruments, and note any key observations and choices made.
-* **Describe how sequencing was performed and configured.** This includes, for example, describing which sequencing technologoy was used and the corresponding platform, instrument models, and the library preparation protocols selected for the experiment. You should note any key observations and choices, such as the assessment of samples, multiplexing/demultiplexing approach, software settings, and other factors that strongly influence the results.
-* **Describe how the data was exported and processed.**  Describing which file formats were used, what each file contains, how the different files are related to each other, and if/how some information was masked or discarded.
+* **Aim for someone else to be able to replicate the experiments.**
+You should adopt common practices to enable others to compile and use data generated across different research projects and public health initiatives. This includes being able to add more samples to extend the scope of a study.
+* **Describe the design of the study/program and experimental variables.**
+This includes, for example, the purpose of the study, the variables and observations required to reach its goals, and how the genome data fits into this context.
+* **Describe how the samples were prepared for sequencing.**
+This includes describing how and where specimens were collected and the process used to create the samples containing the genomic material of interest. You should also reference protocols, reagent kits, instruments, and note any key observations and choices made.
+* **Describe how sequencing was performed and configured.**
+This includes, for example, describing which sequencing technologoy was used and the corresponding platform, instrument models, and the library preparation protocols selected for the experiment. You should note any key observations and choices, such as the assessment of samples, multiplexing/demultiplexing approach, software settings, and other factors that strongly influence the results.
+* **Describe how the data was exported and processed.**
+ Describing which file formats were used, what each file contains, how the different files are related to each other, and if/how some information was masked or discarded.
 * **The potential differences in policies between the data repositories to which you will submit**. For example, the {% tool "gisaid" %} having a more restrictive licence than the {% tool "european-nucleotide-archive" %}.
 
 ### Existing approaches
-
 * State the objective of your study. Examples of study objectives include: 'To determine the genome of an emerging pathogen', and 'phylogenetic analysis for understanding of how pathogens evolve'.
 * State the type(s) of data that you have. This could include: reads, sequences (assembly, variants, consensus), alignments, and annotations.
 * There is guidance on which metadata should be included for submissions to repositories (for example, {% tool "european-nucleotide-archive" %} provides both [general guidelines](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html) and [guidelines specific for pathogens](https://ena-docs.readthedocs.io/en/latest/faq/pathogen-subs-guide.html)). Refer to these guidelines to explore which metadata can be included with your submission.
@@ -146,6 +132,17 @@ Whilst it is inherently important to follow general best practices for genome da
   * The algorithms used in normalisation/alignment protocols. You should refer to [general best practice for sequencing projects](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008260).
 
 * Data files with reads produced by sequencing instruments often contain fragments of the host organism’s DNA. When the host is a human research subject or patient, these fragments must be masked or removed from the data files before they can be submitted.
+
+## Standards, schemas, ontologies and vocabularies
+List of standards, schemas, ontologies and/or vocabularies that are relevant to the resources in this category. Consider having links to the "Data description" page. When applicable, consider adding the appropriate FAIRsharing entry to the tools and resources spreadsheet so that they can be listed and appropriately tagged at the end of the page.
+
+### Considerations
+Using a bullet point style list format as much as possible, describe the considerations for your topic that are specific to infectious diseases within the category (e.g. pathogen characterisation) that you have selected.
+
+Please avoid replicating 'generic' guidelines, i.e. those not specific to infectious diseases, here. Add links to RDMkit in the metadata above, if any are needed.
+
+### Existing approaches
+Mention existing approaches related to the topic.
 
 <!--MOVE THIS TO DATA SOURCES * The most prominent platforms for viral genome data sharing in Europe are the European COVID-19 Data Portal (ENA) and GISAID’s databases. Data should be deposited to both of these platforms and measures should be taken to ensure that consensus sequences and corresponding instrument reads can be referenced across the two platforms and across surveillance systems, such as the NCOV* reporting subjects in ECDC’s TESSy / EpiPulse. Access to instrument reads is important for validation and analysis using alternative or improved workflows.
   * GISAID focuses on data sharing related to viruses and the EpiCoV™ database is specifically designed for sharing COVID-19 and SARS-CoV-2 genome data. EpiCoV™ is an important resource for many public health authorities and researchers but the database is currently limited to provide access to consensus sequences and enforces a license that places some restrictions on how and by whom the data can be accessed and reused in downstream analysis.
