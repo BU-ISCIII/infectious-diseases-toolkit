@@ -1,7 +1,7 @@
 ---
 title: FAIR data
 description: Apply the FAIR principles to infectious disease research data, emphasizing documentation, accessibility, metadata standards, and interoperability to promote transparency, collaboration, and reuse.
-contributors: ["Marcos Casado Barbero", "Romain David", "Iris Van Dam", "Rudolf Wittner"]
+contributors: ["Marcos Casado Barbero", "Romain David", "Iris Van Dam", "Rudolf Wittner", "Enrique Sapena Ventura"]
 page_id: fd_data_description
 redirect_from: /fair-data/data-description
 rdmkit:
