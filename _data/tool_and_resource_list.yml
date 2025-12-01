@@ -1868,3 +1868,11 @@
   registry:
     biotools: comet
   url: https://github.com/damayanthiHerath/comet
+- description: AI/ML-powered tool to pseudonymize text/log files in order to meet Personally Identifiable Information (PII) regulation laws (e.g. European GDPR, US CCPA).
+  id: orion-pseudonymization-tool
+  name: Orion Pseudonymization Tool
+  url: https://www.orioninc.com/products/pseudonymization-tool/
+- description: AI-powered service to anonymize sensitive health data into high-quality, privacy-compliant assets.
+  id: veil-ai
+  name: Veil.AI
+  url: https://veil.ai/
