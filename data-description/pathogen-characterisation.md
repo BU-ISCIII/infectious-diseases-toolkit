@@ -23,7 +23,6 @@ training:
     registry: Carpentries
     url: https://gallantries.github.io/video-library/modules/one-health    
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
-
 ---
 
 **We are still working on the content for this page.** If you are interested in adding to the page, then:
@@ -35,7 +34,6 @@ This is a community-driven website, so contributions are welcome! You will, of c
 New content is announced on the [home page](/) and [news page](/about/news), so please check for updates there. You can also watch for changes on this page by using a free service like [Visual Ping](https://visualping.io/) or [Distill Web Monitor](https://distill.io/), or by using a [browser add-on](https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge?hl=en).
 
 ## Introduction
-
 Ensuring that data is adequately described is crucial to enable others to be able to reuse it or reproduce work. For general information on the importance of data description, please see [the documentation and metadata section of RDMkit](https://rdmkit.elixir-europe.org/metadata_management).
 
 There are many different types of data that relate to pathogen characterisation. You may need to describe, for example, biological specimens, the protocols used in data collection, and/or genomic data. This page will inform you of what you need to consider when describing data related to pathogen characterisation. By following the guidance on this page, you should be able to share your data with all the description necessary to enable others to reuse it.
