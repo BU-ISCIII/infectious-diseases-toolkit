@@ -50,7 +50,7 @@ Moreover, by making infectious disease data more findable, researchers promote t
 
 ### Considerations
 
-* Deidentify patients by means of pseudonymization or anonymization. Examples of software tools for such use are the [Orion Pseudonymization Tool](https://www.orioninc.com/products/pseudonymization-tool/) or, for anonymization, [Veil.AI](https://veil.ai/).
+* Deidentify patients by means of pseudonymization or anonymization. Examples of software tools for such use are the {% tool "orion-pseudonymization-tool" %} or, for anonymization, {%tool "veil-ai" %}.
 * For samples use (globally) unique and persistent [identifiers](https://rdmkit.elixir-europe.org/identifiers) (e.g. [biosample:SAMEA6864906](https://www.ebi.ac.uk/biosamples/samples/SAMEA6864906)) for each of your records, asserting they are unambiguously resolvable from anywhere in the world.
 * Use standard naming conventions for human and disease data (e.g. [SNOMED](https://www.snomed.org) or [ICD11](https://icd.who.int/en/)), as well as for taxonomic classifications (e.g. [taxonomy:9606](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606) for humans or [taxonomy:2697049](https://identifiers.org/taxonomy:2697049) for COVID-19). 
 * Describe your data with clear variable names with possible searchable keywords and comprehensive descriptions: choose field standards if possible. Several metadata standards have been developed for different diseases. Metadata ontologies can be found for example at {% tool "bioportal" %} or {% tool "ols" %}. Prioritise primary and usual users' standards, but do not forget that metadata may be used by novel users to the field, to which you can cater with generic and understandable. Metadata must be sufficient and appropriate.
