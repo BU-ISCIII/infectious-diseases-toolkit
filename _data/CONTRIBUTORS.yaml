@@ -387,7 +387,6 @@ Cillian De Gascun:
   email: cillian.degascun@ucd.ie
   orcid: 0000-0001-9208-4325
   affiliation: UCD National Virus Reference Laboratory
-
 Paula Mölling:
   email: paula.molling@regionorebrolan.se
   orcid: 0009-0000-1143-9105
@@ -402,4 +401,11 @@ Alejandro Bernabéu:
   email: abernabeu@externos.isciii.es
   orcid: 0009-0002-7073-4758
   role: editor
+  email: aida.moure@bsc.es
+  orcid: 0000-0001-8833-5750
+  affiliation: Barcelona Supercomputing Center (BSC), Spain
+Pau Pascual Mas:
+  git: PauPascualMas
+  email: ppascual@externos.isciii.es
+  orcid: 0000-0002-6873-6538
   affiliation: ISCIII / ELIXIR-ES
