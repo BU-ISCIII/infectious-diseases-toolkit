@@ -1,7 +1,7 @@
 ---
 title: Human biomolecular data
 description: Finding and sharing data for human biomolecular related data sources.
-contributors: [Aina Jené Cortada, Arnau Soler Costa, Cillian De Gascun, Isabel Cuesta, Paula Mölling, Abeer Fadda, Dilza Campos, Aída Moure Fernández, Andreas Scherer]
+contributors: [Aina Jené Cortada, Arnau Soler Costa, Cillian De Gascun, Isabel Cuesta, Paula Mölling, Abeer Fadda, Dilza Campos, Aída Moure Fernández, Andreas Scherer, Carmen Iborra]
 page_id: hbd_data_sources
 redirect_from: /human-biomolecular-data/data-sources
 rdmkit:
