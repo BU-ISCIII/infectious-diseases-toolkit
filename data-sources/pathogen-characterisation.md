@@ -128,7 +128,7 @@ When working with genomic data sources in the context of infectious diseases and
   - {% tool "outbreak-info" %} – COVID-19-focused dashboard combining genomic, epidemiological, and variant data.
 - **Antimicrobial resistance repositories**
   - {% tool "card" %} – Curated resource of resistance genes, their molecular mechanisms, and associated antibiotics. Widely used for annotation and predictive bioinformatics.
-  - {% tool "ResFinder" %} – Web-based tool and database to identify acquired AMR genes in bacterial genomes from NGS data.
+  - {% tool "resfinder" %} – Web-based tool and database to identify acquired AMR genes in bacterial genomes from NGS data.
   - {% tool "abricate" %} - Mass screening of contigs for antimicrobial resistance or virulence genes. It comes bundled with multiple databases: NCBI, CARD, ARG-ANNOT, Resfinder, MEGARES, EcOH, PlasmidFinder, Ecoli_VF and VFDB. https://bio.tools/ABRicate
   - {% tool "deeparg" %} - A deep learning based approach to predict Antibiotic Resistance Genes (ARGs) from metagenomes.
 
